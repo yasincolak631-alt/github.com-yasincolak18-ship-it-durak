@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Durak",
+    "slug": "durak",
+    "scheme": "durak",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F2E3B"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.durak.app"
+    },
+    "android": {
+      "package": "com.durak.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F2E3B"
+      }
+    },
+    "plugins": ["expo-router"]
+  }
+}
